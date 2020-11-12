@@ -11,7 +11,6 @@ int get_num(){
 
 //for loop
 int main(){
-
     int first = get_num();
     int second = get_num();
     for(int startNum = first; startNum < second; ++first){
