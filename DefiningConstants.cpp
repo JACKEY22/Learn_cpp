@@ -11,4 +11,4 @@ int main(){
     cout<<area;
     cout<<NEWLINE;
     return 0;
-}-
+}
