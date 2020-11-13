@@ -1,8 +1,8 @@
 #include <iostream>
-#include "FunctionCallByValue_ref.cpp"
+#include "FunctionCallByValue_Ref.cpp"
 using namespace std;
+extern int sum(int first, int second);
 
-int sum(int first, int second);
 int main(){
     int first = 100, second = 200, third = 300, result;
     result = sum(first, second);

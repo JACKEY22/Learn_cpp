@@ -1,4 +1,5 @@
-#include "FunctionOther.cpp"
+#include <iostream>
+#include "Function_Ref.cpp"
 extern int funcoutside();
 
 int i = 5;
