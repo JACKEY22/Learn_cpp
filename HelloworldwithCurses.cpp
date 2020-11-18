@@ -1,9 +1,11 @@
 #include <iostream>
-#include <ncurses.h>
+#include <curses.h>
 using namespace std;
 
 int main() {
-    initscr();
+    WINDOW *w;
+    w = initscr();
+    curs_set(0);
     printw("Hello Ncurse!");
     refresh();
     getch();

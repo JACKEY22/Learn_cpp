@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int first = 5;
-    int &ref_first = first;
+    int& ref_first = first;
     cout << "Value of first : " << first << ", address : " << &first << endl;
     cout << "Value of ref_first : " << ref_first << ", address : " << &ref_first << endl;
     ref_first = 6;
