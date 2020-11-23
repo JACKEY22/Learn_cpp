@@ -2,3 +2,5 @@
 .vscode/settings.json
 .vscode/tasks.json
 .vscode/c_cpp_properties.json
+computer system/.vscode/launch.json
+computer system/.vscode/tasks.json
